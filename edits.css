@@ -1,0 +1,130 @@
+/* This is a comment */
+ 
+/* Colors */
+body {
+  background-color: #f2f2f2;
+  color: #333;
+}
+ 
+h1 {
+  color: rgb(255, 0, 0);
+}
+ 
+p {
+  color: hsl(120, 100%, 50%);
+}
+ 
+/* Background */
+.container {
+  background-color: #fff;
+}
+ 
+/* Units */
+.container {
+  width: 80%;
+  height: 500px;
+  padding: 20px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+}
+ 
+/* Box Model */
+.container {
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+ 
+  padding-top: 20px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+ 
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 5px;
+}
+ 
+/* Text */
+h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+ 
+p {
+  text-decoration: none;
+}
+ 
+/* Display */
+.inline-block {
+  display: inline-block;
+}
+ 
+.block {
+  display: block;
+}
+ 
+/* Sizing */
+img {
+  max-width: 100%;
+  height: auto;
+}
+ 
+/* Positioning */
+.relative {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+ 
+.fixed {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+ 
+/* Pseudo-class */
+a:hover {
+  color: #ff0000;
+}
+ 
+/* Layouts - Flexbox */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.flex-child {
+  flex: 1;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+ 
+/* Layouts - Grid */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+ 
+.grid-child {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+ 
+/* Responsiveness */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+ 
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+ 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
